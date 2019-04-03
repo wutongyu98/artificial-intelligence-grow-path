@@ -11,6 +11,11 @@
 ### 1. currently tensorflow only support python version < 3.6. So we will need to install python3.6 first on ubuntu.
 ### 2. install pip3 that linked to python3.6
 python3.6 -m pip install --upgrade pip setuptools wheel
+remarking: switch default python version can be done via adding these two lines in the .bashrc and then do source ~/.bashrc
+
+alias python=python3.6
+
+alias python3=python3.6
 
 ### 3. install needed 
 sudo apt update
