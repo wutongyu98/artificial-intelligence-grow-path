@@ -13,6 +13,8 @@
 python3.6 -m pip install --upgrade pip setuptools wheel
 remarking: switch default python version can be done via adding these two lines in the .bashrc and then do source ~/.bashrc
 
+remarking: "sudo apt-get install --reinstall python-minimal" can be used to correct the update error
+
 alias python=python3.6
 
 alias python3=python3.6
