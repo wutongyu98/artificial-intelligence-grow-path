@@ -13,4 +13,12 @@ HOG特征提取方法就是将一个image：
 ————————————————
 原文链接：https://blog.csdn.net/abcjennifer/article/details/7365651···
 
-### 2. if the training data is limited, we can use a pre-trained data model plus a specific data we have for the refinement.  
+### 2. RCNN:  
+if the training data is limited, we can use a pre-trained data model plus a specific data we have for the refinement.  
+detail [link](https://zhuanlan.zhihu.com/p/158218471)  
+``` RCNN包含了三个主要的模块：
+
+生成类别独立的regoin proposal（区域建议），为感知器定义候选区域
+CNN提取固定长度的特征
+线性SVM分类器进行类别的分类 ```  
+
