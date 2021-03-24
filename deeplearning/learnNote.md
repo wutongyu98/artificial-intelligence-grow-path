@@ -23,7 +23,7 @@ CNN提取固定长度的特征
 线性SVM分类器进行类别的分类 
 ```  
 
-### 3. Mask_RCNN TensorFlow版本安装。只能在TensorFlow1.x版本运行，需要在conda环境中配置  
+### 3. Mask_RCNN TensorFlow版本安装和应用实战[link](https://blog.csdn.net/qiancaobaicheng/article/details/95521456)只能在TensorFlow1.x版本运行，需要在conda环境中配置 
 #### 3.1 在conda中添加科大源版本方法
 ```
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
@@ -38,4 +38,14 @@ conda config --set show_channel_urls yes``
 ```
 #### 3.2 用conda和科大镜像安装cuda  
 conda install cudatoolkit=8.0   
+
+#### 3.3 keras 降级处理和  
+pip uninstall keras  
+pip install  keras==2.0.8  
+#### 3.4 TensorFlow和keras的对应关系[link])(https://blog.csdn.net/qq_37171215/article/details/108567516)  
+#### 3.5 conda 安装TensorFlow  
+```
+conda search tensorflow-gpu     //查找现有版本
+conda install tensorflow-gpu==1.5.0   
+```
 
