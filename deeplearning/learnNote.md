@@ -22,3 +22,17 @@ detail [link](https://zhuanlan.zhihu.com/p/158218471)
 CNN提取固定长度的特征
 线性SVM分类器进行类别的分类 ```  
 
+### 3. Mask_RCNN TensorFlow版本安装。只能在TensorFlow1.x版本运行，需要在conda环境中配置  
+#### 3.1 在conda中添加科大源版本方法
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
+
+conda config --set show_channel_urls yes``
+
+————————————————
+原文链接：https://blog.csdn.net/weixin_41955987/article/details/107170352
+
