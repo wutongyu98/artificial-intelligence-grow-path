@@ -48,4 +48,10 @@ pip install  keras==2.0.8
 conda search tensorflow-gpu     //查找现有版本
 conda install tensorflow-gpu==1.5.0   
 ```
-
+### 4. 这次的MaskRCNN的TensorFlow版本调试持续两整天，终于告一段落。主要问题市TensorFlow， keras, numpy, cuda, cudnn 版本的协调，正确的版本配置为：  
+```
+conda install cudatoolkit=8.0
+pip install keras==2.1.6
+numpy 1.6
+conda install cudnn=7.0.5
+```
