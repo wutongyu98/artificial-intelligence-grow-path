@@ -16,8 +16,8 @@ HOG特征提取方法就是将一个image：
 ### 2. RCNN:  
 if the training data is limited, we can use a pre-trained data model plus a specific data we have for the refinement.  
 detail [link](https://zhuanlan.zhihu.com/p/158218471)  
-``` RCNN包含了三个主要的模块：
-
+``` 
+RCNN包含了三个主要的模块：
 生成类别独立的regoin proposal（区域建议），为感知器定义候选区域
 CNN提取固定长度的特征
 线性SVM分类器进行类别的分类 
@@ -36,4 +36,6 @@ conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
 conda config --set show_channel_urls yes``
 原文链接：https://blog.csdn.net/weixin_41955987/article/details/107170352
 ```
+#### 3.2 用conda和科大镜像安装cuda  
+conda install cudatoolkit=8.0   
 
